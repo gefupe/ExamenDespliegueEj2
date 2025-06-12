@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-$servername = "54.235.225.58"; // Host de la BDD  s
+$servername = "db"; // Host de la BDD  s
 $username = "utilitario"; // Nombre de usuario de MySQL 
 $password = "utilitario1234"; // Contraseña de MySQL 
 $dbname = "concesionario"; // Nombre de la base de datos 
@@ -8,7 +8,7 @@ $dbname = "concesionario"; // Nombre de la base de datos
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
-    die("Conexión fallida v2.0: " . $conn->connect_error);
+    die("Conexión fallida: " . $conn->connect_error);
 }
 
 // Obtener los coches
