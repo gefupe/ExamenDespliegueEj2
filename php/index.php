@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-$servername = "db"; // Host de la BDD  s
+$servername = "54.235.225.58"; // Host de la BDD  s
 $username = "utilitario"; // Nombre de usuario de MySQL 
 $password = "utilitario1234"; // Contraseña de MySQL 
 $dbname = "concesionario"; // Nombre de la base de datos 
